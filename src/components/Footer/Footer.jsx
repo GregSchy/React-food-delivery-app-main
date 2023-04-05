@@ -67,37 +67,27 @@ const Footer = () => {
 
         <Row className="mt-5">
           <Col lg="6" md="6">
-            <p className="copyright__text">
-              Copyright - 2022, website made by Muhibur Rahman. All Rights
-              Reserved.
-            </p>
+            <p className="copyright__text">Copyright - 2022</p>
           </Col>
           <Col lg="6" md="6">
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
               <p className="m-0">Follow: </p>
               <span>
                 {" "}
-                <Link to="https://www.facebook.com/muhib160">
+                <Link to="https://grzegorzszymalak.pl/">
                   <i class="ri-facebook-line"></i>
                 </Link>{" "}
               </span>
 
               <span>
-                <Link to="https://github.com/muhib160">
+                <Link to="https://github.com/GregSchy">
                   <i class="ri-github-line"></i>
                 </Link>
               </span>
 
               <span>
                 {" "}
-                <Link to=" https://www.youtube.com/c/MuhibsTechDiary">
-                  <i class="ri-youtube-line"></i>
-                </Link>{" "}
-              </span>
-
-              <span>
-                {" "}
-                <Link to=" https://www.linkedin.com/in/muhib160/">
+                <Link to=" https://www.linkedin.com/in/grzegorz-szymalak/">
                   <i class="ri-linkedin-line"></i>
                 </Link>{" "}
               </span>
